@@ -1,4 +1,7 @@
-var ThumbnailList = React.createClass({
+var React = require('react');
+var Thumbnail = require('./thumbnail');
+// ThumbnailList Class
+module.exports = React.createClass({
   render: function() {
     //points at the ThumbnailData array and maps through it
     var list = this.props.ThumbnailData.map(function(thumbnailProps) {

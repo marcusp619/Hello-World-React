@@ -1,5 +1,7 @@
+var React = require('react');
+
 // Badge Class
-var Badge = React.createClass({
+module.exports = React.createClass({
   //Must have render
   render: function() {
     return (
