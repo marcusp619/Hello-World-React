@@ -3,6 +3,7 @@ Go into 'src' directory:
   1: convert JSX files into commonJS files
   2: concat the commonJS files
   3: Save the new file.
+  run gulp in term to run default task
 */
 
 var gulp = require('gulp');
